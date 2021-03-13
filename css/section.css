@@ -17,31 +17,27 @@
   font-weight: bold;
 }
 
-.section__button--underscore {
-  color: hsl(0, 0%, 0%);
-  background-color: hsl(0, 0%, 100%);
-  border-style: none;
-  font-size: 14px;
-  padding: 8px;
-  margin: 5px;
-}
-
 .section__button {
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 83%);
   border-style: none;
   font-size: 14px;
   padding: 8px;
   margin: 5px;
-  transition: 0.1s;
+  cursor: context-menu; 
 }
 
-.section__button:hover {
-  background-color: hsl(0, 0%, 93%);
+.section__button:active {
+  transform: scale(1.1);
 }
 
 .section__button--link {
   color: hsl(0, 0%, 0%);
   text-decoration: none;
+  cursor: context-menu;
+}
+
+.section__button--size {
+  font-size: 22px;
 }
 
 .section__video--paragraph {
